@@ -28,7 +28,7 @@
 import {defineComponent} from 'vue';
 
 export default defineComponent({
-  name: 'SkillsTags',
+  name: 'SectionSkillsTags',
   components: {}
 });
 </script>
