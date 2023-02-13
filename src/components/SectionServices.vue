@@ -2,58 +2,19 @@
   <section class="section" id="services">
     <div class="section-heading">
       <h3 class="title is-2">Serviços</h3>
-      <h4 class="subtitle is-5">What can I do for you?</h4>
+      <h4 class="subtitle is-5">Procura algum serviço?</h4>
     </div>
-    <div class="container">
-      <div class="columns">
-        <div class="column">
-          <div class="box">
-            <div class="content">
-              <h4 class="title is-5">Front End Web Development</h4>
-              Develop Front End using latest standards with HTML5/CSS3 with added funtionality using JavaScript and
-              Vue.js.
-            </div>
-          </div>
-        </div>
-        <div class="column">
-          <div class="box">
-            <div class="content">
-              <h4 class="title is-5">Back End Web Development</h4>
-              Develop Back End application/service using Node.js or ASP .NET and SQL server or Mongo DB databases.
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="columns">
-        <div class="column">
-          <div class="box">
-            <div class="content">
-              <h4 class="title is-5">Front End Web Development</h4>
-              Develop Front End using latest standards with HTML5/CSS3 with added funtionality using JavaScript and
-              Vue.js.
-            </div>
-          </div>
-        </div>
-        <div class="column">
-          <div class="box">
-            <div class="content">
-              <h4 class="title is-5">Back End Web Development</h4>
-              Develop Back End application/service using Node.js or ASP .NET and SQL server or Mongo DB databases.
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
+    <MyServices></MyServices>
   </section>
 </template>
 
 <script lang="ts">
 import {defineComponent} from 'vue';
+import MyServices from "@/components/SectionServices/MyServices.vue";
 
 export default defineComponent({
   name: 'SectionServices',
-  components: {}
+  components: {MyServices}
 });
 </script>
 
