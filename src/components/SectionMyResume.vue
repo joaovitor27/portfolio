@@ -1,13 +1,13 @@
 <template>
   <section class="section" id="resume">
     <div class="section-heading">
-      <h3 class="title is-2">Resume</h3>
-      <h4 class="subtitle is-5">More about my past</h4>
+      <h3 class="title is-2">Resumo</h3>
+      <h4 class="subtitle is-5">Meu currÍculo em PDF</h4>
       <a href="#" class="button is-link is-medium">
         <span class="icon">
           <i class="fas fa-file-alt"></i>
         </span>
-        <span>Download My Resume</span>
+        <span>Download</span>
       </a>
     </div>
   </section>

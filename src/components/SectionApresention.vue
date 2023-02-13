@@ -1,25 +1,25 @@
 <template>
   <section class="section" id="about">
     <div class="section-heading">
-      <h3 class="title is-2">About Me</h3>
-      <h4 class="subtitle is-5">Jack of all trades, master of "some"</h4>
+      <h3 class="title is-2">Sobre mim</h3>
+      <h4 class="subtitle is-5">João Vitor, "rei da programação"</h4>
       <div class="container">
-        <p>Web developer with more than <strong>4 years</strong> of well-rounded experience with a degree in the
-          field of
-          <strong>Computer Science</strong>, extensive knowledge of modern Web techniques and love for
-          <strong>Coffee</strong>.
-          Looking for an opportunity to work and upgrade, as well as being involved in an organization that
-          believes
-          in gaining a competitive edge and giving back to the community.</p>
+        <p>Eu sou desemvolvedor web a <strong>4 anos</strong>, e durante esses anos vim adquirindo cada vez mais
+          experiencia como programador,
+          gosto mais de trabalhar na parte do back end, mas já fiz alguns trabalho com frontend como esse portfólio.
+          Atualmente
+          estou cursando
+          <strong>ciência da computação</strong>, no 6º período e sou estagiário na startup Revgás como <strong>desemvolvedor
+            back-end</strong>.
+        </p>
       </div>
     </div>
 
     <div class="columns has-same-height is-gapless">
       <div class="column">
-        <!-- Profile -->
         <div class="card">
           <div class="card-content">
-            <h3 class="title is-4">Profile</h3>
+            <h3 class="title is-4">Perfil</h3>
 
             <div class="content">
               <table class="table-profile">
@@ -28,41 +28,41 @@
                   <th colspan="2"></th>
                 </tr>
                 <tr>
-                  <td>Address:</td>
-                  <td>Guru's Lab</td>
+                  <td>Endereço:</td>
+                  <td>Rua Quinze, Nº 5628, Santa Maria</td>
                 </tr>
                 <tr>
-                  <td>Phone:</td>
-                  <td>0123-456789</td>
+                  <td>Telefone:</td>
+                  <td>(86) 9 9588-0950</td>
                 </tr>
                 <tr>
                   <td>Email:</td>
-                  <td>minion@despicable.me</td>
+                  <td>joaovitor.monteiro.188@gmail.com</td>
                 </tr>
               </table>
             </div>
             <br>
             <div class="buttons has-addons is-centered">
-              <a href="#" class="button is-link">Github</a>
-              <a href="#" class="button is-link">LinkedIn</a>
-              <a href="#" class="button is-link">Twitter</a>
-              <a href="#" class="button is-link">CodeTrace</a>
+              <a href="https://github.com/joaovitor27" class="button is-dark">Github</a>
+              <a href="https://www.linkedin.com/in/jo%C3%A3o-vitor-monteiro-577a49196/"
+                 class="button is-dark">LinkedIn</a>
+              <a href="https://twitter.com/Joao__Vitor27" class="button is-dark">Twitter</a>
             </div>
           </div>
         </div>
       </div>
       <div class="column">
-        <!-- Profile picture -->
         <div class="card">
           <div class="card-image">
             <figure class="image is-4by3">
-              <img src="https://source.unsplash.com/random/1280x960" alt="Placeholder image">
+              <img
+                  src="../../public/img/desenvolvedor-front-end.webp"
+                  alt="Placeholder image">
             </figure>
           </div>
         </div>
       </div>
       <div class="column">
-        <!-- Skills -->
         <div class="card">
           <div class="card-content skills-content">
             <h3 class="title is-4">Skills</h3>
@@ -72,9 +72,9 @@
                 <div class="media-content">
                   <div class="content">
                     <p>
-                      <strong>JavaScript:</strong>
+                      <strong>Python:</strong>
                       <br>
-                      <progress class="progress is-primary" value="90" max="100"></progress>
+                      <progress class="progress is-info" value="90" max="100"></progress>
                     </p>
                   </div>
                 </div>
@@ -84,9 +84,9 @@
                 <div class="media-content">
                   <div class="content">
                     <p>
-                      <strong>Vue.js:</strong>
+                      <strong>Django:</strong>
                       <br>
-                      <progress class="progress is-primary" value="90" max="100"></progress>
+                      <progress class="progress is-info" value="75" max="100"></progress>
                     </p>
                   </div>
                 </div>
@@ -96,9 +96,9 @@
                 <div class="media-content">
                   <div class="content">
                     <p>
-                      <strong>Node.js:</strong>
+                      <strong>API Rest:</strong>
                       <br>
-                      <progress class="progress is-primary" value="75" max="100"></progress>
+                      <progress class="progress is-info" value="85" max="100"></progress>
                     </p>
                   </div>
                 </div>
@@ -108,9 +108,9 @@
                 <div class="media-content">
                   <div class="content">
                     <p>
-                      <strong>HTML5/CSS3</strong>
+                      <strong>TypeScript</strong>
                       <br>
-                      <progress class="progress is-primary" value="95" max="100"></progress>
+                      <progress class="progress is-info" value="70" max="100"></progress>
                     </p>
                   </div>
                 </div>
@@ -122,7 +122,19 @@
                     <p>
                       <strong>Databases</strong>
                       <br>
-                      <progress class="progress is-primary" value="66" max="100"></progress>
+                      <progress class="progress is-info" value="85" max="100"></progress>
+                    </p>
+                  </div>
+                </div>
+              </article>
+
+              <article class="media">
+                <div class="media-content">
+                  <div class="content">
+                    <p>
+                      <strong>Vue</strong>
+                      <br>
+                      <progress class="progress is-info" value="50" max="100"></progress>
                     </p>
                   </div>
                 </div>

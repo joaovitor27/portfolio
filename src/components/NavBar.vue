@@ -14,31 +14,31 @@
           <span class="icon">
             <i class="fas fa-info"></i>
           </span>
-          <span>About</span>
+          <span>Sobre mim</span>
         </a>
         <a class="navbar-item" href="#services">
           <span class="icon">
             <i class="fas fa-bars"></i>
           </span>
-          <span>Services</span>
-        </a>
-        <a class="navbar-item" href="#resume">
-          <span class="icon">
-            <i class="fas fa-file-alt"></i>
-          </span>
-          <span>Resume</span>
+          <span>Serviços</span>
         </a>
         <a class="navbar-item" href="#portfolio">
           <span class="icon">
             <i class="fas fa-th-list"></i>
           </span>
-          <span>Portfolio</span>
+          <span>Trabalhos</span>
         </a>
         <a class="navbar-item" href="#contact">
           <span class="icon">
             <i class="fas fa-envelope"></i>
           </span>
-          <span>Contact</span>
+          <span>Contato</span>
+        </a>
+        <a class="navbar-item" href="#resume">
+          <span class="icon">
+            <i class="fas fa-file-alt"></i>
+          </span>
+          <span>Resumo</span>
         </a>
       </div>
     </div>

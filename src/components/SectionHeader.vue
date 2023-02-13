@@ -3,10 +3,10 @@
     <div class="hero-body">
       <div class="container">Olá! Eu sou
         <h1 class="title is-1">
-          João Vitor
+          João Vitor da Silva Monteiro
         </h1>
         <h2 class="subtitle is-3">
-          Full Stack Web Developer
+          Desenvolvedor Full Stack
         </h2>
       </div>
     </div>

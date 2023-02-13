@@ -4,9 +4,9 @@
   <SectionApresention></SectionApresention>
   <SectionSkillsTags></SectionSkillsTags>
   <SectionServices></SectionServices>
-  <SectionMyResume></SectionMyResume>
   <SectionPortifolio></SectionPortifolio>
   <SectionFormContact></SectionFormContact>
+  <SectionMyResume></SectionMyResume>
   <FooterBar></FooterBar>
 </template>
 
