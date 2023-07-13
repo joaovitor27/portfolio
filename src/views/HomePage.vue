@@ -5,7 +5,7 @@
   <SectionSkillsTags></SectionSkillsTags>
   <SectionServices></SectionServices>
   <SectionPortifolio></SectionPortifolio>
-  <SectionFormContact></SectionFormContact>
+<!--  <SectionFormContact></SectionFormContact>-->
   <SectionMyResume></SectionMyResume>
   <FooterBar></FooterBar>
 </template>
@@ -26,7 +26,7 @@ export default defineComponent({
   name: 'HomePage',
   components: {
     FooterBar,
-    SectionFormContact,
+    // SectionFormContact,
     SectionPortifolio,
     SectionMyResume,
     SectionServices,

@@ -22,7 +22,7 @@
                 <p>
                   <strong>Django:</strong>
                   <br>
-                  <progress class="progress is-info" value="75" max="100"></progress>
+                  <progress class="progress is-info" value="85" max="100"></progress>
                 </p>
               </div>
             </div>
@@ -44,7 +44,7 @@
                 <p>
                   <strong>TypeScript</strong>
                   <br>
-                  <progress class="progress is-info" value="70" max="100"></progress>
+                  <progress class="progress is-info" value="75" max="100"></progress>
                 </p>
               </div>
             </div>
