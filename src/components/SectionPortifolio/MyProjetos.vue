@@ -99,8 +99,11 @@
               <img :src="RastreamentoWeb" alt="Landing template screenshot">
             </figure>
             <div class="content">
-              Projeto pessoal com intuito de desenvolver um rastreador para colocar em meus veículos e também adquirir mais conhecimento.
-              O front é feito com Vue.js onde consome uma API em python com framework FastAPI que também foi desenvolvida por mim. O projeto está em fase desenvolvimento, está parada na parte física do projeto que é o rastreador.
+              Projeto pessoal com intuito de desenvolver um rastreador para colocar em meus veículos e também adquirir
+              mais conhecimento.
+              O front é feito com Vue.js onde consome uma API em python com framework FastAPI que também foi
+              desenvolvida por mim. O projeto está em fase desenvolvimento, está parada na parte física do projeto que é
+              o rastreador.
               <div style="margin-top: 20px">
                 <b>Última atualização:</b>
                 <time datetime="2023-01-30">15:36 PM - 30 Jan 2023</time>
@@ -132,8 +135,10 @@
               <img :src="RastreamentoBack" alt="Landing template screenshot">
             </figure>
             <div class="content">
-              Projeto pessoal com intuito de desenvolver um rastreador para colocar em meus veículos e também adquirir mais conhecimento.
-              O Back é feito com python com framework FastAPI, com banco de dados postgresql. O Back é responsável por gerenciar todos os usuários e dispositivos rastreador e mandar pro front.
+              Projeto pessoal com intuito de desenvolver um rastreador para colocar em meus veículos e também adquirir
+              mais conhecimento.
+              O Back é feito com python com framework FastAPI, com banco de dados postgresql. O Back é responsável por
+              gerenciar todos os usuários e dispositivos rastreador e mandar pro front.
               O projeto está em fase desenvolvimento, está parada na parte física do projeto que é o rastreador.
               <div style="margin-top: 20px">
                 <b>Última atualização:</b>
@@ -154,7 +159,7 @@
         <div class="card">
           <header class="card-header">
             <p class="card-header-title">
-              <span style="margin-right: 10px">Portfólio</span>
+              <span style="margin-right: 10px">Portfólio Frot-end</span>
               <span class="is-pulled-right">
                 <span class="tag is-default">v1.0.0</span>
                 <span class="tag is-default">Desktop</span>
@@ -182,6 +187,39 @@
           </footer>
         </div>
       </div>
+      <div class="column is-one-third">
+        <div class="card">
+          <header class="card-header">
+            <p class="card-header-title">
+              <span style="margin-right: 10px">Portfólio Back-end</span>
+              <span class="is-pulled-right">
+                <span class="tag is-default">v1.0.0</span>
+                <span class="tag is-default">API Rest</span>
+              </span>
+            </p>
+          </header>
+          <div class="card-content">
+            <figure class="image">
+              <img :src="PortfolioBack" alt="Landing template screenshot">
+            </figure>
+            <div class="content" style="margin-top: 10px">
+              Projeto pessoal com intuito de apresentar meu currículo e meus projetos. O back é feito com python com
+              Django Rest Framework, com banco de dados postgresql. O back é responsável por gerenciar todos os dados do
+              portfólio e mandar pro front.
+              <div style="margin-top: 20px">
+                <b>Última atualização:</b>
+                <time datetime="2023-07-13">14:30 PM - 29 Jul 2023</time>
+              </div>
+            </div>
+          </div>
+          <footer class="card-footer">
+            <a href="https://github.com/joaovitor27/api_portfolio" class="card-footer-item" target="_blank"
+               rel="noopener noreferrer">Preview</a>
+            <a href="https://github.com/joaovitor27/api_portfolio" target="_blank" rel="noopener noreferrer"
+               class="card-footer-item">Source Code</a>
+          </footer>
+        </div>
+      </div>
     </div>
   </div>
 
@@ -195,11 +233,12 @@ export default defineComponent({
   components: {},
   data() {
     return {
-      ThemosVagas: require('@/assets/Themosvagas.png'),
-      ApiWhatsapp: require('@/assets/ApiWhatsapp.png'),
-      RastreamentoWeb: require('@/assets/RastreadorWeb.png'),
-      RastreamentoBack: require('@/assets/RastreadorBack.png'),
-      Portfolio: require('@/assets/Portfolio.png'),
+      ThemosVagas: require('@/assets/img/Themosvagas.png'),
+      ApiWhatsapp: require('@/assets/img/ApiWhatsapp.png'),
+      RastreamentoWeb: require('@/assets/img/RastreadorWeb.png'),
+      RastreamentoBack: require('@/assets/img/RastreadorBack.png'),
+      Portfolio: require('@/assets/img/Portfolio.png'),
+      PortfolioBack: require('@/assets/img/PortfolioBack.png'),
     }
   },
 });
