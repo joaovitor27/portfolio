@@ -11,7 +11,7 @@
                 <p>
                   <strong>Python:</strong>
                   <br>
-                  <progress class="progress is-info" value="90" max="100"></progress>
+                  <progress class="progress color-default" value="90" max="100"></progress>
                 </p>
               </div>
             </div>
@@ -22,7 +22,7 @@
                 <p>
                   <strong>Django:</strong>
                   <br>
-                  <progress class="progress is-info" value="85" max="100"></progress>
+                  <progress class="progress color-default" value="85" max="100"></progress>
                 </p>
               </div>
             </div>
@@ -33,7 +33,7 @@
                 <p>
                   <strong>API Rest:</strong>
                   <br>
-                  <progress class="progress is-info" value="85" max="100"></progress>
+                  <progress class="progress color-default" value="85" max="100"></progress>
                 </p>
               </div>
             </div>
@@ -44,7 +44,7 @@
                 <p>
                   <strong>TypeScript</strong>
                   <br>
-                  <progress class="progress is-info" value="75" max="100"></progress>
+                  <progress class="progress color-default" value="75" max="100"></progress>
                 </p>
               </div>
             </div>
@@ -55,7 +55,7 @@
                 <p>
                   <strong>Databases</strong>
                   <br>
-                  <progress class="progress is-info" value="85" max="100"></progress>
+                  <progress class="progress color-default" value="85" max="100"></progress>
                 </p>
               </div>
             </div>
@@ -66,7 +66,7 @@
                 <p>
                   <strong>Vue</strong>
                   <br>
-                  <progress class="progress is-info" value="50" max="100"></progress>
+                  <progress class="progress color-default" value="50" max="100"></progress>
                 </p>
               </div>
             </div>
@@ -87,7 +87,22 @@ export default defineComponent({
 </script>
 
 <style scoped>
-  .color-default {
-    border-bottom-color: #021154;
-  }
+.color-default {
+  background-color: #021154;
+}
+
+progress::-webkit-progress-bar {
+  background-color: rgb(255, 255, 255);
+  border-radius: 7px;
+}
+
+progress::-webkit-progress-value {
+  background-color: #0707c2;
+  border-radius: 7px;
+  box-shadow: 1px 1px 5px 3px rgb(4, 31, 150);
+}
+
+progress::-moz-progress-bar {
+  /* style rules */
+}
 </style>

@@ -48,4 +48,8 @@ export default defineComponent({
   .color-white {
     color: white;
   }
+  a:hover {
+    background-color: #041f96;
+    color: white;
+  }
 </style>

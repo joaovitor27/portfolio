@@ -3,7 +3,7 @@
     <div class="section-heading">
       <h3 class="title is-2">Resumo</h3>
       <h4 class="subtitle is-5">Meu currÍculo em PDF</h4>
-      <button @click="generateDownloadLink" class="button is-link is-medium">
+      <button @click="generateDownloadLink" class="button button-color-default is-medium">
         <span class="icon">
           <i class="fas fa-file-alt"></i>
         </span>
@@ -49,5 +49,14 @@ export default defineComponent({
 </script>
 
 <style scoped>
+.button-color-default {
+  background-color: #021154;
+  color: #fff;
+}
+
+.button-color-default:hover {
+  background-color: #041f96;
+  color: #fff;
+}
 
 </style>

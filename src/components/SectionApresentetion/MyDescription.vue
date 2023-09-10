@@ -1,8 +1,8 @@
 <template>
   <div class="section-heading">
     <h3 class="title is-2">Sobre mim</h3>
-    <h4 class="subtitle is-5">João Vitor, "rei da programação"</h4>
-    <div class="container">
+    <h4 class="subtitle is-5">João Vitor, "Rei da programação"</h4>
+    <div class="container has-text-justified">
       <p>Eu sou desemvolvedor web a <strong>4 anos</strong>, e durante esses anos vim adquirindo cada vez mais
         experiencia como programador,
         gosto mais de trabalhar na parte do back end, mas já fiz alguns trabalho com frontend como esse portfólio.

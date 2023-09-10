@@ -4,7 +4,7 @@
   <SectionApresention></SectionApresention>
   <SectionSkillsTags></SectionSkillsTags>
   <SectionServices></SectionServices>
-  <SectionPortifolio></SectionPortifolio>
+  <SectionPortfolio></SectionPortfolio>
 <!--  <SectionFormContact></SectionFormContact>-->
   <SectionMyResume></SectionMyResume>
   <FooterBar></FooterBar>
@@ -18,7 +18,7 @@ import SectionApresention from "@/components/SectionApresention.vue";
 import SectionSkillsTags from "@/components/SectionSkillsTags.vue";
 import SectionServices from "@/components/SectionServices.vue";
 import SectionMyResume from "@/components/SectionMyResume.vue";
-import SectionPortifolio from "@/components/SectionPortifolio.vue";
+import SectionPortfolio from "@/components/SectionPortfolio.vue";
 // import SectionFormContact from "@/components/SectionFormContact.vue";
 import FooterBar from "@/components/Footer.vue";
 
@@ -27,7 +27,7 @@ export default defineComponent({
   components: {
     FooterBar,
     // SectionFormContact,
-    SectionPortifolio,
+    SectionPortfolio,
     SectionMyResume,
     SectionServices,
     SectionSkillsTags,

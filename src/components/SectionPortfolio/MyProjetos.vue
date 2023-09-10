@@ -2,24 +2,22 @@
   <div class="container portfolio-container">
     <div class="columns is-multiline is-variable is-6-mobile">
       <div class="column is-one-third">
-        <div class="card">
+        <div class="card my-card">
           <header class="card-header">
             <p class="card-header-title">
-              <span style="margin-right: 10px">Themos Vagas</span>
+              <span class="margin-right-10-px">Themos Vagas</span>
               <span class="is-pulled-right">
-                    <a>
-                      <span class="tag is-default">v1.0.0</span>
-                    </a>
-                    <span class="tag is-default">Desktop</span>
-                    <span class="tag is-default">Mobile</span>
-                  </span>
+                <span class="tag is-default full-margin">v1.0.0</span>
+                <span class="tag is-default full-margin">Desktop</span>
+                <span class="tag is-default full-margin">Mobile</span>
+              </span>
             </p>
           </header>
           <div class="card-content">
             <figure class="image">
               <img :src="ThemosVagas" alt="Landing template screenshot">
             </figure>
-            <div class="content">
+            <div class="content has-text-justified">
               Projeto de renovação do themos vagas o canal mais famoso do piauí de vagas de emprego. O projeto ainda
               está em andamento e ainda não se encontra em produção, mas logo abaixo temos uma versão beta para
               visualização.
@@ -45,13 +43,13 @@
         </div>
       </div>
       <div class="column is-one-third">
-        <div class="card">
+        <div class="card my-card">
           <header class="card-header">
             <p class="card-header-title">
-              <span style="margin-right: 10px">API Whatsapp</span>
+              <span class="margin-right-10-px">API Whatsapp</span>
               <span class="is-pulled-right">
-                <span class="tag is-default">v1.0.0</span>
-                <span class="tag is-default">Api Rest</span>
+                <span class="tag is-default full-margin">v1.0.0</span>
+                <span class="tag is-default full-margin">Api Rest</span>
               </span>
             </p>
           </header>
@@ -59,7 +57,7 @@
             <figure class="image">
               <img :src="ApiWhatsapp" alt="Landing template screenshot">
             </figure>
-            <div class="content">
+            <div class="content has-text-justified margin-top">
               Projeto desenvolvido para usar em conjunto com chatbot desenvolvido em python. Essa é uma API não official
               do whatsapp para enviar mensagens, receber e replicar outras funcionalidades que o whatsapp contem através
               de uma API Rest.
@@ -81,16 +79,14 @@
         </div>
       </div>
       <div class="column is-one-third">
-        <div class="card">
+        <div class="card my-card">
           <header class="card-header">
             <p class="card-header-title">
-              <span style="margin-right: 10px">Rastreador Front-end</span>
+              <span class="margin-right-10-px">Rastreador Front-end</span>
               <span class="is-pulled-right">
-                    <a>
-                      <span class="tag is-default">v1.0.0</span>
-                    </a>
-                    <span class="tag is-default">Desktop</span>
-                    <span class="tag is-default">Mobile</span>
+                <span class="tag is-default full-margin">v1.0.0</span>
+                <span class="tag is-default full-margin">Desktop</span>
+                <span class="tag is-default full-margin">Mobile</span>
               </span>
             </p>
           </header>
@@ -98,7 +94,7 @@
             <figure class="image">
               <img :src="RastreamentoWeb" alt="Landing template screenshot">
             </figure>
-            <div class="content">
+            <div class="content has-text-justified margin-top">
               Projeto pessoal com intuito de desenvolver um rastreador para colocar em meus veículos e também adquirir
               mais conhecimento.
               O front é feito com Vue.js onde consome uma API em python com framework FastAPI que também foi
@@ -120,13 +116,13 @@
         </div>
       </div>
       <div class="column is-one-third">
-        <div class="card">
+        <div class="card my-card">
           <header class="card-header">
             <p class="card-header-title">
-              <span style="margin-right: 10px">Rastreador Back-end</span>
+              <span class="margin-right-10-px">Rastreador Back-end</span>
               <span class="is-pulled-right">
-                <span class="tag is-default">v1.0.0</span>
-                <span class="tag is-default">Api Rest</span>
+                <span class="tag is-default full-margin">v1.0.0</span>
+                <span class="tag is-default full-margin">Api Rest</span>
               </span>
             </p>
           </header>
@@ -134,7 +130,7 @@
             <figure class="image">
               <img :src="RastreamentoBack" alt="Landing template screenshot">
             </figure>
-            <div class="content">
+            <div class="content has-text-justified margin-top">
               Projeto pessoal com intuito de desenvolver um rastreador para colocar em meus veículos e também adquirir
               mais conhecimento.
               O Back é feito com python com framework FastAPI, com banco de dados postgresql. O Back é responsável por
@@ -156,14 +152,14 @@
         </div>
       </div>
       <div class="column is-one-third">
-        <div class="card">
+        <div class="card my-card">
           <header class="card-header">
             <p class="card-header-title">
-              <span style="margin-right: 10px">Portfólio Frot-end</span>
+              <span class="margin-right-10-px">Portfólio Frot-end</span>
               <span class="is-pulled-right">
-                <span class="tag is-default">v1.0.0</span>
-                <span class="tag is-default">Desktop</span>
-                <span class="tag is-default">Mobile</span>
+                <span class="tag is-default full-margin">v1.0.0</span>
+                <span class="tag is-default full-margin">Desktop</span>
+                <span class="tag is-default full-margin">Mobile</span>
               </span>
             </p>
           </header>
@@ -171,7 +167,7 @@
             <figure class="image">
               <img :src="Portfolio" alt="Landing template screenshot">
             </figure>
-            <div class="content" style="margin-top: 10px">
+            <div class="content has-text-justified margin-top" style="margin-top: 10px">
               Projeto pessoal com intuito de apresentar meu currículo e meus projetos. O front é feito com Vue.js.
               <div style="margin-top: 20px">
                 <b>Última atualização:</b>
@@ -188,13 +184,13 @@
         </div>
       </div>
       <div class="column is-one-third">
-        <div class="card">
+        <div class="card my-card">
           <header class="card-header">
             <p class="card-header-title">
-              <span style="margin-right: 10px">Portfólio Back-end</span>
+              <span class="margin-right-10-px">Portfólio Back-end</span>
               <span class="is-pulled-right">
-                <span class="tag is-default">v1.0.0</span>
-                <span class="tag is-default">API Rest</span>
+                <span class="tag is-default full-margin">v1.0.0</span>
+                <span class="tag is-default full-margin">API Rest</span>
               </span>
             </p>
           </header>
@@ -202,7 +198,7 @@
             <figure class="image">
               <img :src="PortfolioBack" alt="Landing template screenshot">
             </figure>
-            <div class="content" style="margin-top: 10px">
+            <div class="content has-text-justified margin-top">
               Projeto pessoal com intuito de apresentar meu currículo e meus projetos. O back é feito com python com
               Django Rest Framework, com banco de dados postgresql. O back é responsável por gerenciar todos os dados do
               portfólio e mandar pro front.
@@ -245,5 +241,30 @@ export default defineComponent({
 </script>
 
 <style scoped>
+.margin-top {
+  margin-top: 10px;
+}
+
+a:hover {
+  background-color: #041f96;
+  color: white;
+}
+
+.my-card {
+
+}
+
+.my-card header {
+  background-color: #021154;
+}
+
+.my-card .margin-right-10-px {
+  margin-right: 10px;
+  color: white
+}
+
+.my-card .full-margin {
+  margin: 3px;
+}
 
 </style>

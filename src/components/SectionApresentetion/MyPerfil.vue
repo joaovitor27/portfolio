@@ -26,10 +26,10 @@
         </div>
         <br>
         <div class="buttons has-addons is-centered">
-          <a href="https://github.com/joaovitor27" class="button is-dark">Github</a>
+          <a href="https://github.com/joaovitor27" class="button button-color-default">Github</a>
           <a href="https://www.linkedin.com/in/jo%C3%A3o-vitor-monteiro-577a49196/"
-             class="button is-dark">LinkedIn</a>
-          <a href="https://twitter.com/Joao__Vitor27" class="button is-dark">Twitter</a>
+             class="button button-color-default">LinkedIn</a>
+          <a href="https://twitter.com/Joao__Vitor27" class="button button-color-default">Twitter</a>
         </div>
       </div>
     </div>
@@ -46,5 +46,13 @@ export default defineComponent({
 </script>
 
 <style scoped>
+ .button-color-default {
+   background-color: #021154;
+   color: #fff;
+ }
+ .button-color-default:hover {
+   background-color: #041f96;
+   color: #fff;
+ }
 
 </style>
