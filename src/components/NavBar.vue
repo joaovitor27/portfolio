@@ -1,5 +1,5 @@
 <template>
-  <nav class="navbar is-black is-fixed-top">
+  <nav class="navbar degrade is-fixed-top">
     <div class="navbar-brand">
       <div class="navbar-burger burger" data-target="navbarExampleTransparentExample">
         <span></span>

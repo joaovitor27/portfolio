@@ -1,31 +1,31 @@
 <template>
   <div id="navbarExampleTransparentExample" class="navbar-menu">
     <div class="navbar-end">
-      <a class="navbar-item" href="#about">
+      <a class="navbar-item color-white" href="#about">
           <span class="icon">
             <i class="fas fa-info"></i>
           </span>
         <span>Sobre mim</span>
       </a>
-      <a class="navbar-item" href="#services">
+      <a class="navbar-item color-white" href="#services">
           <span class="icon">
             <i class="fas fa-bars"></i>
           </span>
         <span>Serviços</span>
       </a>
-      <a class="navbar-item" href="#portfolio">
+      <a class="navbar-item color-white" href="#portfolio">
           <span class="icon">
             <i class="fas fa-th-list"></i>
           </span>
         <span>Trabalhos</span>
       </a>
-<!--      <a class="navbar-item" href="#contact">-->
+<!--      <a class="navbar-item color-white" href="#contact">-->
 <!--          <span class="icon">-->
 <!--            <i class="fas fa-envelope"></i>-->
 <!--          </span>-->
 <!--        <span>Contato</span>-->
 <!--      </a>-->
-      <a class="navbar-item" href="#resume">
+      <a class="navbar-item color-white" href="#resume">
           <span class="icon">
             <i class="fas fa-file-alt"></i>
           </span>
@@ -45,5 +45,7 @@ export default defineComponent({
 </script>
 
 <style scoped>
-
+  .color-white {
+    color: white;
+  }
 </style>

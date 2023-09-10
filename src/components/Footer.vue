@@ -1,10 +1,8 @@
 <template>
-  <footer class="footer">
-    <div class="section-heading">
+  <footer class="footer color-footer">
+    <div class="section-heading-footer">
       <p>
-        <strong>Bulma Personal Template</strong> by <a href="https://mubaidr.js.org">Muhammad Ubaid Raza</a>. The
-        source code is licensed
-        <a href="http://opensource.org/licenses/mit-license.php">MIT</a>.
+        <strong style="color: white">João Vitor | Copyright ©2023 Todos os direitos reservados.</strong>
       </p>
     </div>
   </footer>
@@ -20,5 +18,15 @@ export default defineComponent({
 </script>
 
 <style scoped>
-
+.color-footer {
+  background-color: #021154;
+}
+.section-heading-footer {
+    text-align: center;
+    margin-top: 6em;
+    margin-bottom: 6em;
+}
+.footer {
+    padding: 3rem 1.5rem 3rem;
+}
 </style>

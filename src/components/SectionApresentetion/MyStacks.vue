@@ -87,5 +87,7 @@ export default defineComponent({
 </script>
 
 <style scoped>
-
+  .color-default {
+    border-bottom-color: #021154;
+  }
 </style>
