@@ -21,7 +21,7 @@ export default defineComponent({
   components: {},
   data() {
     return {
-      link: require('@/assets/pdf/Currículo João Vitor da Silva Monteiro.pdf'),
+      link: require('@/assets/pdf/Currículo João Vitor.pdf'),
     }
   },
   methods: {
