@@ -1,28 +1,12 @@
 <template>
   <div class="column">
     <div class="card">
-      <div class="card-content">
+      <div class="card-content skills-content">
         <h3 class="title is-4">Perfil</h3>
-
         <div class="content">
-          <table class="table-profile">
-            <tr>
-              <th colspan="1"></th>
-              <th colspan="2"></th>
-            </tr>
-            <tr>
-              <td>Endereço:</td>
-              <td>Rua Quinze, Nº 5628, Santa Maria</td>
-            </tr>
-            <tr>
-              <td>Telefone:</td>
-              <td>(86) 9 9588-0950</td>
-            </tr>
-            <tr>
-              <td>Email:</td>
-              <td>joaovitor.monteiro.188@gmail.com</td>
-            </tr>
-          </table>
+          <p><b style="padding-right: 2px">Endereço: </b>Rua Quinze, Nº 5628, Santa Maria</p>
+          <p><b style="padding-right: 2px">Telefone: </b>(86) 9 9588-0950</p>
+          <p><b style="padding-right: 2px">Email: </b>joaovitor.monteiro.188@gmail.com</p>
         </div>
         <br>
         <div class="buttons has-addons is-centered">

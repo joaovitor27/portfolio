@@ -23,14 +23,7 @@
               visualização.
               Esse projeto gerido por mim como programador fullstack, onde trabalhei no back-end com Django e Django
               rest-framework, no front foi usado html, css e javascript puro, mas a intenção é migrar todas as telas
-              para react ou vue.
-              O css foi feito pro outro programador: <a href="https://github.com/hudsonvini" target="_blank"
-                                                        rel="noopener noreferrer">@hudsonvini</a>, pois não sou tão bom
-              com css 😅. O banco de dados escolhido foi o postgresql, todas as tabelas foram modeladas por mim.
-              <div style="margin-top: 20px">
-                <b>Última atualização:</b>
-                <time datetime="2023-05-27">10:15 PM - 27 May 2023</time>
-              </div>
+              para react ou vue. O banco de dados escolhido foi o postgresql, todas as tabelas foram modeladas por mim.
             </div>
           </div>
           <footer class="card-footer">
@@ -58,15 +51,10 @@
               <img :src="ApiWhatsapp" alt="Landing template screenshot">
             </figure>
             <div class="content has-text-justified margin-top">
-              Projeto desenvolvido para usar em conjunto com chatbot desenvolvido em python. Essa é uma API não official
-              do whatsapp para enviar mensagens, receber e replicar outras funcionalidades que o whatsapp contem através
-              de uma API Rest.
-              Foi desenvolvido inteiro por mim para empresa RevGás, para testarmos o bot para futuramente migrar para
-              api official do Whatsapp.
-              <div style="margin-top: 20px">
-                <b>Última atualização:</b>
-                <time datetime="2023-02-01">11:09 PM - 11 Out 2022</time>
-              </div>
+              Projeto desenvolvido para ser usado em conjunto com um chatbot criado em Python. Esta é uma API não
+              oficial do WhatsApp para enviar mensagens, receber e replicar outras funcionalidades que o WhatsApp possui
+              através de uma API REST. Foi desenvolvido inteiramente por mim para a empresa RevGás, a fim de testarmos o
+              bot para futuramente migrarmos para a API oficial do WhatsApp.
             </div>
           </div>
           <footer class="card-footer">
@@ -95,15 +83,10 @@
               <img :src="RastreamentoWeb" alt="Landing template screenshot">
             </figure>
             <div class="content has-text-justified margin-top">
-              Projeto pessoal com intuito de desenvolver um rastreador para colocar em meus veículos e também adquirir
-              mais conhecimento.
-              O front é feito com Vue.js onde consome uma API em python com framework FastAPI que também foi
-              desenvolvida por mim. O projeto está em fase desenvolvimento, está parada na parte física do projeto que é
-              o rastreador.
-              <div style="margin-top: 20px">
-                <b>Última atualização:</b>
-                <time datetime="2023-01-30">15:36 PM - 30 Jan 2023</time>
-              </div>
+              Projeto pessoal com o intuito de desenvolver um rastreador para colocar em meus veículos e também adquirir
+              mais conhecimento. O frontend é feito com Vue.js, o qual consome uma API em Python com o framework
+              FastAPI, também desenvolvida por mim. O projeto está em fase de desenvolvimento e está parado na parte
+              física do projeto, que é o rastreador.
             </div>
           </div>
           <footer class="card-footer">
@@ -131,15 +114,10 @@
               <img :src="RastreamentoBack" alt="Landing template screenshot">
             </figure>
             <div class="content has-text-justified margin-top">
-              Projeto pessoal com intuito de desenvolver um rastreador para colocar em meus veículos e também adquirir
-              mais conhecimento.
-              O Back é feito com python com framework FastAPI, com banco de dados postgresql. O Back é responsável por
-              gerenciar todos os usuários e dispositivos rastreador e mandar pro front.
-              O projeto está em fase desenvolvimento, está parada na parte física do projeto que é o rastreador.
-              <div style="margin-top: 20px">
-                <b>Última atualização:</b>
-                <time datetime="2023-02-06">01:03 AM - 06 Fev 2023</time>
-              </div>
+              Projeto pessoal com o intuito de desenvolver um rastreador para colocar em meus veículos e também adquirir
+              mais conhecimento. O backend é feito com Python usando o framework FastAPI, com banco de dados PostgreSQL.
+              O backend é responsável por gerenciar todos os usuários e dispositivos rastreadores e enviar dados para o
+              frontend. O projeto está em fase de desenvolvimento, com a parte física do rastreador ainda pendente.
             </div>
           </div>
           <footer class="card-footer">
@@ -169,10 +147,6 @@
             </figure>
             <div class="content has-text-justified margin-top" style="margin-top: 10px">
               Projeto pessoal com intuito de apresentar meu currículo e meus projetos. O front é feito com Vue.js.
-              <div style="margin-top: 20px">
-                <b>Última atualização:</b>
-                <time datetime="2023-07-13">12:30 PM - 13 Jul 2023</time>
-              </div>
             </div>
           </div>
           <footer class="card-footer">
@@ -199,13 +173,9 @@
               <img :src="PortfolioBack" alt="Landing template screenshot">
             </figure>
             <div class="content has-text-justified margin-top">
-              Projeto pessoal com intuito de apresentar meu currículo e meus projetos. O back é feito com python com
-              Django Rest Framework, com banco de dados postgresql. O back é responsável por gerenciar todos os dados do
-              portfólio e mandar pro front.
-              <div style="margin-top: 20px">
-                <b>Última atualização:</b>
-                <time datetime="2023-07-13">14:30 PM - 29 Jul 2023</time>
-              </div>
+              Projeto pessoal com o intuito de apresentar meu currículo e meus projetos. O backend é feito com Python
+              usando o Django Rest Framework, com banco de dados PostgreSQL. O backend é responsável por gerenciar todos
+              os dados do portfólio e enviar para o frontend.
             </div>
           </div>
           <footer class="card-footer">

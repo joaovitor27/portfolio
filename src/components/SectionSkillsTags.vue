@@ -37,4 +37,14 @@ export default defineComponent({
 .margin-right-1-px {
   margin-right: 1px !important;
 }
+.custom-tags {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 5px;
+}
+.color-tag {
+  color: white;
+  background-color: #041f96;
+}
 </style>

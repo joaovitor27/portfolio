@@ -1,10 +1,11 @@
 <template>
   <div class="column is-2" style="  display: flex;
-  justify-content: center; /* Centraliza horizontalmente */
+  justify-content: center;
   align-items: center;">
     <div class="card" style="  display: flex;
   justify-content: center; /* Centraliza horizontalmente */
-  align-items: center; position: relative">
+  align-items: center; position: relative; border-radius: 50%; border: #041f96 solid 5px; width: 400px; height: 350px; overflow: hidden;"
+    >
       <div class="card-my">
         <div class="my-image">
           <figure class="image">
@@ -33,12 +34,14 @@ export default defineComponent({
   display: flex;
   justify-content: center; /* Centraliza horizontalmente */
   align-items: center;
+  border-radius: 50%;
 }
 
 .my-image {
   width: 400px; /* Largura desejada para o card */
   height: 350px; /* Altura desejada para o card (pode ser ajustada conforme necessário) */
   overflow: hidden;
+  border-radius: 50%;
 }
 
 .card-my img {

@@ -53,7 +53,7 @@
             <div class="media-content">
               <div class="content">
                 <p>
-                  <strong>Databases</strong>
+                  <strong>SQL</strong>
                   <br>
                   <progress class="progress color-default" value="85" max="100"></progress>
                 </p>
@@ -64,9 +64,9 @@
             <div class="media-content">
               <div class="content">
                 <p>
-                  <strong>Vue</strong>
+                  <strong>React-Native</strong>
                   <br>
-                  <progress class="progress color-default" value="50" max="100"></progress>
+                  <progress class="progress color-default" value="70" max="100"></progress>
                 </p>
               </div>
             </div>

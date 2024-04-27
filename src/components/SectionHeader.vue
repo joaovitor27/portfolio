@@ -7,7 +7,7 @@
         </h1>
         <div class="typing-effect color-white">
           <p class="subtitle is-3 color-white">
-            <strong class="color-white">Desenvolvedor Full Stack</strong>
+            <strong class="color-white">Desenvolvedor <br> Full Stack</strong>
           </p>
         </div>
       </div>
@@ -25,10 +25,11 @@ export default defineComponent({
 </script>
 
 <style scoped>
-  .color-white {
-    color: white;
-  }
-  .typing-effect p {
+.color-white {
+  color: white;
+}
+
+.typing-effect p {
   overflow: hidden;
   border-right: .15em rgba(255, 255, 255, 0.85); /* Simula o cursor de digitação */
   white-space: nowrap; /* Evita quebrar a linha */

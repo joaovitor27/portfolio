@@ -1,11 +1,11 @@
 <template>
   <section class="section" id="about">
     <MyDescription></MyDescription>
-    <div class="columns has-same-height is-gapless">
-      <MyPerfil></MyPerfil>
-      <MyImagemFullStack></MyImagemFullStack>
-      <MyStacks></MyStacks>
-    </div>
+      <div class="has-same-height is-gapless" style="display: flex; align-items: center; justify-content: center">
+        <MyPerfil></MyPerfil>
+        <MyImagemFullStack></MyImagemFullStack>
+        <MyStacks></MyStacks>
+      </div>
   </section>
 </template>
 
