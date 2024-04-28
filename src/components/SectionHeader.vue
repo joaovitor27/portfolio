@@ -7,7 +7,7 @@
         </h1>
         <div class="typing-effect color-white">
           <p class="subtitle is-3 color-white">
-            <strong class="color-white">Desenvolvedor <br> Full Stack</strong>
+            <strong class="color-white">Desenvolvedor <br>Full Stack</strong>
           </p>
         </div>
       </div>

@@ -1,7 +1,7 @@
 <template>
   <section class="section" id="about">
     <MyDescription></MyDescription>
-      <div class="has-same-height is-gapless" style="display: flex; align-items: center; justify-content: center">
+      <div class="has-same-height is-gapless" style="display: flex; align-items: center; flex-wrap: wrap; align-content: stretch; justify-content: center">
         <MyPerfil></MyPerfil>
         <MyImagemFullStack></MyImagemFullStack>
         <MyStacks></MyStacks>

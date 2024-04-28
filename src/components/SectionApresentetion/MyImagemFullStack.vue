@@ -1,7 +1,5 @@
 <template>
-  <div class="column is-2" style="  display: flex;
-  justify-content: center;
-  align-items: center;">
+  <div class="column is-2">
     <div class="card" style="  display: flex;
   justify-content: center; /* Centraliza horizontalmente */
   align-items: center; position: relative; border-radius: 50%; border: #041f96 solid 5px; width: 400px; height: 350px; overflow: hidden;"
